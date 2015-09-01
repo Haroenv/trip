@@ -4,3 +4,5 @@ title: Hello World
 ---
 
 Today I have been setting up jekyll to have a clear structure of the page.
+
+After that I've started the styling of the site.
