@@ -1,11 +1,12 @@
 {% include header.html %}
-{{ content }}
-
+<section class="content">
+  {{ content }}
+</section>
 {% for post in site.posts %}
-<article>
+  <article>
     <h3><a href="/trip{{post.url}}">{{ post.title }}</a></h3>
-   <section>
-    {{ post.excerpt }}<a href="/trip{{post.url}}">…</a>
-    </section>
-</article>
+    {{ post.excerpt }}
+    <a href="/trip{{post.url}}" class="dots">…</a>
+  </article>
 {% endfor %}
+{% include footer.html %}

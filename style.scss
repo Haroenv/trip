@@ -4,4 +4,25 @@
 
 html {
 	font-family: -apple-system,sans-serif;
+	padding: 1rem;
+}
+
+article {
+	.dots {
+		float: left;
+	}
+}
+
+nav {
+	ul {
+		li {
+			list-style-type: none;
+			float: right;
+			padding: 1rem;
+		}
+	}
+}
+
+.content {
+	border: 1px solid red;
 }
