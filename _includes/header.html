@@ -5,7 +5,7 @@
  -->
 <html lang="en">
 <head>
-	<title> {% if page.title %} {{ page.title }} &ndash; {% endif %} Haroen Viaene </title>
+	<title> {{ page.title }} | Haroen </title>
 	<meta charset="utf-8" />
 
 	<!-- saying that the browser doesn't need to rescale on mobile -->
@@ -26,41 +26,25 @@
 	<meta name="author" content="Haroen Viaene" />
 
 	<!-- linking your CSS -->
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="/trip/style.css" />
 
 	<!-- favicon is best linked in your html too -->
 	<link rel="icon" type="image/png" href="/favicon.png" />
 
 	<!-- OGP -->
-	<meta property="og:url" content="http://link.to/page" />
+	<meta property="og:url" content="http://haroen.me/trip" />
 	<!-- title and author -->
-	<meta property="og:site_name" content="Name of your site" />
 	<meta property="og:title" content="Haroen Viaene" />
 	<meta property="article:author" content="Haroen Viaene"> <!-- might be redundant -->
-	<!-- general OG image -->
-	<link rel="image_src" href="http://link.to/thumbnail-image.png" />
-	<meta property="og:image" content="http://link.to/thumbnail-image.png" />
-	<meta property="og:image:width" content="2000" />
-	<meta property="og:image:height" content="2000" />
-	<meta property="og:type" content="website" />
 	<!-- description -->
-	<meta name="og:description" content="The description for facebook etc." />
-
-	<!-- twitter card: photo -->
-	<meta name="twitter:card" content="photo"> <!-- also summary etc. -->
-	<!-- method and user -->
-	<meta name="twitter:site" content="@twitterAccount">
-	<meta name="twitter:domain" content="Name of your site">
-	<meta name="twitter:creator" content="@twitterAccount">
-	<meta name="twitter:url" content="http://link.to/page">
-	<!-- title, image... -->
-	<meta name="twitter:title" content="Haroen Viaene">
-	<meta name="twitter:image" content="http://link.to/thumbnail-image.png">
-	<meta name="twitter:image:width" content="2000">
-	<meta name="twitter:image:height" content="2000">
-	<meta name="twitter:description" content="Here comes your description, this is also used by Google when displaying search results.">
+	<meta name="og:description" content="Haroen's trip through Belgium" />
 </head>
-<body>
 
-</body>
-</html>
+<header>
+	<h1>  {{ page.title }}  </h1>
+	<nav>
+		<ul>
+			<li><a href="index.html"></a></li>
+		</ul>
+	</nav>
+</header>
