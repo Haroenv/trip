@@ -4,6 +4,7 @@
 
 $light: #F3F3F3;
 $medium: #ccc;
+$accent: #7f1734;
 
 html {
 	font-family: -apple-system,sans-serif;
@@ -41,7 +42,7 @@ nav {
 	}
 }
 
-footer {
+footer, .date {
 	color: $medium;
 	font-size: 0.8rem;
 }
@@ -49,4 +50,18 @@ footer {
 img {
 	max-width: 100%;
 	margin: 0 auto;
+}
+
+a {
+	color: $accent;
+	text-decoration: none;
+	transition: border 0.4s ease;
+
+	&:hover {
+		border-bottom: 2px solid $accent;
+	}
+}
+
+h3 {
+	margin: 0.5rem 0;
 }

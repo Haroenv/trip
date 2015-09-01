@@ -1,5 +1,7 @@
 {% include header.html %}
+
 <section class="content">
+    <span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
 	{{ content }}
 </section>
 <div id="disqus_thread"></div>

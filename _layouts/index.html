@@ -5,6 +5,7 @@
 {% for post in site.posts %}
   <article>
     <h3><a href="/trip{{post.url}}">{{ post.title }}</a></h3>
+    <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
     {{ post.excerpt }}
     <a href="/trip{{post.url}}" class="dots">…</a>
   </article>
