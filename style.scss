@@ -2,14 +2,21 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+$light: #F3F3F3;
+$medium: #ccc;
+
 html {
 	font-family: -apple-system,sans-serif;
 	padding: 1rem;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 article {
-	.dots {
-		float: left;
+	padding: 0.2rem;
+
+	&:nth-of-type(2) {
+		background-color: $light;
 	}
 }
 
@@ -21,8 +28,20 @@ nav {
 			padding: 1rem;
 		}
 	}
+
+	@extend %clearfix;
 }
 
-.content {
-	border: 1px solid red;
+
+%clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+footer {
+	color: $medium;
+	font-size: 0.8rem;
 }
