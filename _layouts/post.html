@@ -3,8 +3,8 @@
 <section class="content">
     <span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
 	{{ content }}
-	<a href="/trip{{ page.next.url }}" rel="next">next</a>
-	<a href="/trip{{ page.previous.url }}" rel="prev">prev</a>
+	{% if page.next %}<a href="/trip{{ page.next.url }}" rel="next">next</a> {% endif %}
+	{% if page.previous %}<a href="/trip{{ page.previous.url }}" rel="prev">prev</a> {% endif %}
 </section>
 <div id="disqus_thread"></div>
 <script src="//haroenvtrip.disqus.com/embed.js" async></script>
