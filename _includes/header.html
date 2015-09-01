@@ -14,13 +14,13 @@
 	<meta name="theme-color" content="#7f1734">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<link rel="icon" href="/apple-touch-icon.png">
-	<meta name="description" content="Haroen's trip through Belgium." />
+	<meta name="description" content="{{ post.content | strip_html | truncatewords: 50 }}" />
 	<meta name="author" content="Haroen Viaene" />
 	<link rel="stylesheet" href="{{site.baseurl}}/style.css" />
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<meta property="twitter:author" content="@haroenv">
 	<meta property="og:title" content="Haroen Viaene" />
-	<meta name="og:description" content="Haroen's trip through Belgium" />
+	<meta name="og:description" content="{{ post.content | strip_html | truncatewords: 50 }}" />
 </head>
 <body>
 

@@ -6,8 +6,7 @@
   <article>
     <h3><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h3>
     <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
-    {{ post.excerpt }}
-    <a href="{{site.baseurl}}{{post.url}}" class="dots">…</a>
+    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
   </article>
 {% endfor %}
 {% include footer.html %}
