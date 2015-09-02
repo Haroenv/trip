@@ -1,6 +1,7 @@
 - name: N. D'Haenens
   street: Rue Neuve 2
-  commune: 7972 Beloeil-Ellignies St.Anne
+  commune: Beloeil-Ellignies St.Anne
+  zip: 7972
   phone: 003269689545
   gps:
     - 50.562080
@@ -10,10 +11,11 @@
 
 - name: Mvr. F.R.A. Mathy Joye
   street: rue pairière 45
-  commune: 5670 oignies en thiérache Viroinval
+  commune: Oignies en Thiérache Viroinval
+  zip: 5670
   phone:
-  	- 0032474704136
-  	- 003260399444
+    - 0032474704136
+    - 003260399444
   gps:
     - 50.018645
     - 4.647264
@@ -22,12 +24,13 @@
 
 - name: Mvr. M.G. Geerts
   street: Rue Sous La Rouchette 2
-  commune: 6880 Orgeo Bertrix
+  commune: Orgeo Bertrix
+  zip: 6880
   phone:
     - 0032413255661
     - 0032624909152
   gps:
     - 49.836552
     - 5.299530
-  booked: false
+  booked: true
   day: 2015-09-09
