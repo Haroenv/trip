@@ -17,7 +17,7 @@ article {
 	padding: 0.2em;
 
 	&:nth-of-type(2) {
-		background-color: $light;
+		@extend %shaded;
 	}
 }
 
@@ -39,6 +39,12 @@ nav {
 	}
 }
 
+%shaded {
+	background-color: $light;
+	border-radius: 2px;
+	padding: 2px;
+}
+
 footer, .date {
 	color: $medium;
 	font-size: 0.8em;
@@ -46,9 +52,7 @@ footer, .date {
 
 code {
 	font-family: Monaco, monospace;
-	background-color: $medium;
-	border-radius: 2px;
-	padding: 2px;
+	@extend %shaded;
 }
 
 img,iframe {
