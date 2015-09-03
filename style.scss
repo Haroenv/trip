@@ -44,6 +44,13 @@ footer, .date {
 	font-size: 0.8em;
 }
 
+code {
+	font-family: Monaco, monospace;
+	background-color: $medium;
+	border-radius: 2px;
+	padding: 2px;
+}
+
 img,iframe {
 	max-width: 100%;
 	margin: 0 auto;
