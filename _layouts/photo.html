@@ -1,6 +1,6 @@
 {% include header.html %}
 <section class="content">
-	<span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
+	<span class="date">{{ page.date | date: "%-d %B %Y %-H:%M" }}</span>
 	{% for photo in page.photos %}
 	<figure>
 		<img src="{{ site.baseurl }}{{ photo.img }}" alt="{{ page.title }}">
