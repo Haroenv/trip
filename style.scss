@@ -94,3 +94,17 @@ a {
 h3 {
 	margin: 0.5em 0;
 }
+
+abbr {
+	border-bottom: 1px dotted $text;
+	cursor: pointer;
+}
+
+figure {
+	text-align: center;
+
+	figcaption {
+		font-style: italic;
+		font-size: 0.8em;
+	}
+}

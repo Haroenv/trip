@@ -1,7 +1,12 @@
 {% include header.html %}
 <section class="content">
 	<span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
-	{{ content }}
+	{% for photo in page.photos %}
+	<figure>
+		<img src="{{ site.baseurl }}{{ photo.img }}" alt="{{ page.title }}">
+		<figcaption>{{ photo.caption }}</figcaption>
+	</figure>
+	{% endfor %}
 	{% if page.next %}<a href="{{site.baseurl}}{{ page.next.url }}" rel="next">next</a> {% endif %}
 	{% if page.previous %}<a href="{{site.baseurl}}{{ page.previous.url }}" rel="prev">prev</a> {% endif %}
 </section>
