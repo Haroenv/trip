@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Preparation
+date: 2015-09-05 10:30
 ---
 
 For the first day I will have to travel 100km, passing through most of West-Vlaanderen, quite straight to Beloeil. Using the Flemish "fietsknooppunten" network for that part:

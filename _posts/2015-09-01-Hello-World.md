@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World
+date: 2015-09-01 09:45
 ---
 
 Today I have been setting up Jekyll to have a clear structure of the page.
