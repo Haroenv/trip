@@ -14,13 +14,12 @@
 	<meta name="theme-color" content="#7f1734">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<link rel="icon" href="/apple-touch-icon.png">
-	<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines}}" />
+	<meta name="description" content="{{ page.content | replace: '\n',' ' |strip_html | truncatewords: 50 }}" />
 	<meta name="author" content="Haroen Viaene" />
 	<link rel="stylesheet" href="{{site.baseurl}}/style.css" />
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<meta property="twitter:author" content="@haroenv">
 	<meta property="og:title" content="Haroen Viaene" />
-	<meta name="og:description" content="{{ page.excerpt | strip_html | strip_newlines}}" />
 </head>
 <body>
 
