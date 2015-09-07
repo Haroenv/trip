@@ -3,7 +3,7 @@
 	<span class="date">{{ page.date | date: "%-d %B %Y %-H:%M" }}</span>
 	{% for photo in page.photos %}
 	<figure>
-		<img src="{{ site.baseurl }}{{ photo.img }}" alt="{{ page.title }}">
+		<img src="{{ photo.img }}" alt="{{ photo.caption }}">
 		<figcaption>{{ photo.caption }}</figcaption>
 	</figure>
 	{% endfor %}
