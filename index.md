@@ -3,6 +3,6 @@ layout: index
 title: Trip
 ---
 
-Here I will keep my findings and progress in the trip.
+I have travelled from Monday 7 September 2015 to Thursday 10 September.
 
-I will travel through Belgium in a small week.
+In total I've done 405km.
