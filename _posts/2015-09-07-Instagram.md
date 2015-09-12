@@ -13,3 +13,4 @@ photos:
     img: https://instagram.com/p/7VSHb8IniX/media?size=l
     caption: My room
 ---
+Pictures on Instagram of the first day.
