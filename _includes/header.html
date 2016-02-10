@@ -18,10 +18,15 @@
 	<link rel="stylesheet" href="{{site.baseurl}}/style.css" />
 	<link rel="icon" type="image/png" href="/favicon.png" />
 
-	<meta name="description" content="{{ page.content | replace: '\n',' ' |strip_html | truncatewords: 50 }}" />
-	<meta property="twitter:type" content="summary">
-	<meta property="twitter:site" content="@haroenv">
-	<meta property="og:title" content="Haroen's trip: {{page.title}}" />
+  <meta name="description" content="{{ page.content | markdownify | replace: '\n',' ' | strip_html | truncatewords: 50 }}" />
+  <meta name="og:description" content="{{ page.content | markdownify | replace: '\n',' ' | strip_html | truncatewords: 50 }}" />
+  <meta name="twitter:description" content="{{ page.content | markdownify | replace: '\n',' ' | strip_html | truncatewords: 50 }}" />
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:site" content="@haroenv">
+  <meta property="og:title" content="Haroen's trip: {{page.title}}" />
+  <meta property="twitter:title" content="Haroen's trip: {{page.title}}" />
+  <meta name="og:image" content="https://haroen.me/apple-touch-icon.png">
+  <meta name="twitter:image" content="https://haroen.me/apple-touch-icon.png">
 </head>
 <body>
 
