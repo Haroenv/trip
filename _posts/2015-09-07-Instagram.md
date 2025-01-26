@@ -4,13 +4,14 @@ title: Instagram
 date: 2015-09-07 16:24
 photos:
   - image:
-    img: https://instagram.com/p/7UjQ-Ionsx/media?size=l
+    img: /trip/assets/tielt-windmill.jpg
     caption: Windmill in Tielt
   - image:
-    img: https://instagram.com/p/7Uzp0tInh1/media?size=l
+    img: /trip/assets/pizza.jpg
     caption: Pizza as lunch
   - image:
-    img: https://instagram.com/p/7VSHb8IniX/media?size=l
+    img: /trip/assets/beloeil-room.jpg
     caption: My room
 ---
+
 Pictures on Instagram of the first day.
